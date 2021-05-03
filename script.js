@@ -68,8 +68,6 @@ function displayTimer(){
     let s = seconds < 10 ? "0" + seconds : seconds;
     let ms = milliseconds < 10 ? "00" + milliseconds : milliseconds < 100 ? "0" + milliseconds : milliseconds;
 
-    timerRef.innerHTML = ` ${h} : ${m} : ${s} `;
+    timerRef.innerHTML = ` ${h} : ${m} : ${s} : ${ms}`;
 }
-// function clicked(id){
-//     document.getElementById(id).style.backgroundColor="red";
-// }
+
